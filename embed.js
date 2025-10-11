@@ -50,7 +50,7 @@
         phoneNumber: '',
         welcomeMessage: 'Hi there 👋',
         prefillMessage: 'Hi, I want to more about the program!',
-        baseUrl: 'https://cdn.jsdelivr.net/gh/YOUR_GITHUB_USERNAME/closerflow-whatsapp-widget@main'
+        baseUrl: 'https://cdn.jsdelivr.net/gh/RiccardoTran/closerflow-whatsapp-widget@main'
     };
     const config = { ...defaultConfig, ...window._whatsappConfig || {} };
 

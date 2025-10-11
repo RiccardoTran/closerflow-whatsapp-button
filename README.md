@@ -22,7 +22,7 @@ Add this code to your website before the closing `</body>` tag:
         prefillMessage: 'Hi, I want to know more!'
     };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/YOUR_GITHUB_USERNAME/closerflow-whatsapp-widget@main/embed.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/RiccardoTran/closerflow-whatsapp-widget@main/embed.js" async></script>
 ```
 
 ## Configuration Options
