@@ -276,9 +276,11 @@
                                  style="width: ${config.buttonIconSize}px; height: ${config.buttonIconSize}px;">
                             ${config.callToAction}
                         </a>
+                        ${config.showPoweredBy ? `
                         <div class="mv-powered-by">
-                            ⚡ Powered by <a href="https://www.closerflow.com" target="_blank" class="mv-closerflow-link">CloserFlow</a>
+                            ⚡ Powered by <a href="${config.poweredByUrl}" target="_blank" class="mv-closerflow-link">${config.poweredByBrand}</a>
                         </div>
+                        ` : ''}
                     </div>
                 </div>
 
