@@ -1,6 +1,6 @@
-# CloserFlow WhatsApp Chat Widget
+# Trietlabs WhatsApp Chat Widget
 
-A customizable WhatsApp chat widget that can be embedded on any website. Built by CloserFlow - https://www.closerflow.com/
+A customizable WhatsApp chat widget that can be embedded on any website. Built by Trietlabs - https://www.trietlabs.com/
 
 ## Installation
 
@@ -38,6 +38,31 @@ Add this code to your website before the closing `</body>` tag:
 - `phoneNumber`: WhatsApp number in international format without + (e.g., 12184273128)
 - `welcomeMessage`: Initial greeting message
 - `prefillMessage`: Pre-filled message from user
+- `showPoweredBy`: Show/hide the "Powered by" footer (default: true)
+- `poweredByBrand`: Brand name displayed in the footer (default: 'Trietlabs')
+- `poweredByUrl`: URL for the brand link in footer (default: 'https://www.trietlabs.com')
+
+## Customizing the "Powered By" Footer
+
+By default, the widget displays "⚡ Powered by Trietlabs" in the footer. You can customize or hide this:
+
+**Hide the footer completely:**
+```javascript
+window._whatsappConfig = {
+    // ... other config ...
+    showPoweredBy: false
+};
+```
+
+**Customize the brand:**
+```javascript
+window._whatsappConfig = {
+    // ... other config ...
+    showPoweredBy: true,
+    poweredByBrand: 'Your Brand',
+    poweredByUrl: 'https://yourbrand.com'
+};
+```
 
 ## Local Development
 
